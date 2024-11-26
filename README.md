@@ -61,7 +61,7 @@ Kaggle Competition：[點擊這裡](https://www.kaggle.com/competitions/nycu-iai
 ```
 
 ---
-## 實作
+## 實作 (Task 1)
 
 ### 第一步：資料預處理
 #### 1. 先定義資料增強的方法
@@ -311,3 +311,13 @@ submission_df = pd.DataFrame(predictions)
 submission_df.to_csv('submission-new.csv', index=False)
 print("Submission file 'submission-new.csv' generated successfully!")
 ```
+---
+
+## Task 2 Compute the Confusion Matrix (50x50)
+![Confusion Matrix](confusion_matrix.png)
+
+---
+## Task3 Visualization and Understanding  Convoutional Neural Networks
+### 圖片在 Task3 folder 中
+
+
